@@ -1,0 +1,726 @@
+{
+  "sai": {
+    "profile": {
+      "age": 23,
+      "weight_kg": 75,
+      "height_cm": 165,
+      "gender": "male",
+      "goal": "weight_loss",
+      "level": "beginner"
+    },
+    "history": [
+      {
+        "role": "user",
+        "content": "Calculate my BMI"
+      },
+      {
+        "role": "user",
+        "content": "Calculate my BMI"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "Your BMI is 27.5, which falls into the 'Overweight' category. A healthy BMI range is between 18.5 and 24.9."
+      },
+      {
+        "role": "user",
+        "content": "i ate chicken biryani"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "Your chicken biryani meal has 0 grams of protein, 0 grams of carbs, 0 grams of fat, and 0 grams of fiber, totaling 0 calories. \n\nConsider adding lean protein like chicken, tofu, lentils, eggs, or Greek yogurt to increase your protein intake. Also, try adding vegetables, fruit, legumes, or whole grains to boost your fiber intake.\n\nRemember to stay hydrated by aiming for about 2200ml of water today, and more if you're sweating heavily."
+      },
+      {
+        "role": "user",
+        "content": "Calories burned running 30 min"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "You burned approximately 368 calories during your 30-minute moderate-intensity run."
+      },
+      {
+        "role": "user",
+        "content": "Create a meal plan"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a sample meal plan for you:\n\n* Breakfast: Greek yogurt + oats + banana\n* Lunch: Chicken breast + rice + broccoli\n* Snack: Almonds + fruit\n\nThis meal plan provides approximately 1500 calories per day, with a balance of protein, carbohydrates, and fat. It's recommended to rotate your protein sources and vegetables every 2-3 days to ensure variety and adherence to the meal plan.\n\nRemember to stay hydrated by drinking at least 35ml of water per kilogram of body weight, and add an additional 500-1000ml on training days. You can mix staples with lean proteins and frozen vegetables for convenience and to stay within your budget."
+      }
+    ],
+    "progress_logs": [
+      {
+        "at": "2026-04-25T17:25:42.283731+00:00",
+        "metric": "weight_kg",
+        "value": 76,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-25T17:26:36.635002+00:00",
+        "metric": "weight_kg",
+        "value": 76.5,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-25T17:28:08.944108+00:00",
+        "metric": "weight_kg",
+        "value": 74,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-27T05:03:04.024652+00:00",
+        "metric": "calories_burned",
+        "value": 368,
+        "notes": "Auto-logged from chat: calories burned estimate"
+      },
+      {
+        "at": "2026-04-27T05:05:19.433397+00:00",
+        "metric": "calories_intake",
+        "value": 1500,
+        "notes": "Auto-logged from chat reply text"
+      }
+    ],
+    "goals": [],
+    "preferences": {
+      "communication_style": "balanced",
+      "tone": "friendly_professional"
+    },
+    "conversation_summary": "Recent user focus: i ate chicken biryani; Calories burned running 30 min; Create a meal plan. Recent coach guidance: You burned approximately 368 calories during your 30-minute moderate-intensity run.; Here is a sample meal plan for you:\n\n* Breakfast: Greek yogurt + oats + banana\n* Lunch: Ch.",
+    "audit_log": [
+      {
+        "at": "2026-04-14T13:31:46.246352+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-21T13:23:56.002571+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-21T13:24:36.689540+00:00",
+        "event": "session_cleared",
+        "details": {}
+      },
+      {
+        "at": "2026-04-21T13:25:24.546337+00:00",
+        "event": "profile_update",
+        "details": {
+          "keys": [
+            "age",
+            "weight_kg",
+            "height_cm",
+            "gender",
+            "goal",
+            "level"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-21T13:25:34.044779+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": []
+        }
+      },
+      {
+        "at": "2026-04-21T13:25:47.054773+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "generate_meal_plan",
+            "analyze_nutrition"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-21T13:26:55.143075+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": []
+        }
+      },
+      {
+        "at": "2026-04-21T13:27:25.865544+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": []
+        }
+      },
+      {
+        "at": "2026-04-21T13:28:28.617817+00:00",
+        "event": "logout",
+        "details": {}
+      },
+      {
+        "at": "2026-04-25T17:23:22.861320+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-25T17:25:42.286731+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-25T17:26:17.638797+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": []
+        }
+      },
+      {
+        "at": "2026-04-25T17:26:34.192204+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_bmi"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-25T17:26:36.635002+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-25T17:26:49.453448+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": []
+        }
+      },
+      {
+        "at": "2026-04-25T17:27:03.377733+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "create_smart_goal"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-25T17:27:25.918961+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "create_smart_goal",
+            "generate_workout_plan",
+            "generate_meal_plan"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-25T17:28:08.939282+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-25T17:28:08.947344+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-25T17:33:17.587441+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-25T17:37:03.056621+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-25T17:46:26.315442+00:00",
+        "event": "session_cleared",
+        "details": {}
+      },
+      {
+        "at": "2026-04-27T05:00:59.795406+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-27T05:02:03.376711+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_bmi"
+          ],
+          "auto_calorie_logs": 0
+        }
+      },
+      {
+        "at": "2026-04-27T05:02:26.030710+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ],
+          "auto_calorie_logs": 0
+        }
+      },
+      {
+        "at": "2026-04-27T05:03:04.031517+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-27T05:05:19.443337+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "generate_meal_plan"
+          ],
+          "auto_calorie_logs": 1
+        }
+      }
+    ],
+    "updated_at": "2026-04-27T05:05:19.443337+00:00",
+    "progress_analytics": {
+      "entries": 5,
+      "consistency_score": 0,
+      "weight_trend": "decreasing",
+      "strength_trend": "stable",
+      "plateau_detected": false,
+      "calories_logged_total": 1500,
+      "calories_logged_average": 1500,
+      "calories_entries": 1,
+      "calories_burned_total": 368,
+      "daily_calories": [
+        {
+          "date": "2026-04-27",
+          "intake": 1500,
+          "burned": 368,
+          "net": 1132
+        }
+      ],
+      "insights": [
+        "Consistency is the biggest lever right now. Start with 3 fixed sessions/week."
+      ]
+    }
+  },
+  "ranjith": {
+    "profile": {},
+    "history": [],
+    "progress_logs": [],
+    "goals": [],
+    "preferences": {
+      "communication_style": "balanced",
+      "tone": "friendly_professional"
+    },
+    "conversation_summary": "",
+    "audit_log": [
+      {
+        "at": "2026-04-21T13:28:54.166432+00:00",
+        "event": "signup",
+        "details": {}
+      }
+    ],
+    "updated_at": "2026-04-21T13:28:54.166432+00:00"
+  },
+  "krishna": {
+    "profile": {
+      "age": 23,
+      "weight_kg": 75,
+      "height_cm": 165,
+      "gender": "male",
+      "goal": "weight_loss",
+      "level": "beginner",
+      "equipment": "home",
+      "diet_type": "vegetarian",
+      "budget": "medium",
+      "communication_style": "casual"
+    },
+    "history": [
+      {
+        "role": "user",
+        "content": "done cardio exercise for 330 mins"
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "You have burned approximately 2062 calories during your 330 minutes of cardio exercise."
+      }
+    ],
+    "progress_logs": [
+      {
+        "at": "2026-04-26T05:44:41.995862+00:00",
+        "metric": "weight_kg",
+        "value": 76,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-26T05:45:09.071614+00:00",
+        "metric": "weight_kg",
+        "value": 65,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-26T05:55:40.810368+00:00",
+        "metric": "weight_kg",
+        "value": 76,
+        "notes": ""
+      },
+      {
+        "at": "2026-04-26T06:00:56.172259+00:00",
+        "metric": "calories_intake",
+        "value": 0,
+        "notes": "Auto-logged from chat: meal calorie estimate"
+      },
+      {
+        "at": "2026-04-26T06:01:41.025101+00:00",
+        "metric": "calories_intake",
+        "value": 0,
+        "notes": "Auto-logged from chat: meal calorie estimate"
+      },
+      {
+        "at": "2026-04-26T06:05:09.723978+00:00",
+        "metric": "calories_intake",
+        "value": 600,
+        "notes": "Auto-logged from chat reply text"
+      },
+      {
+        "at": "2026-04-26T06:06:18.844294+00:00",
+        "metric": "calories_burned",
+        "value": 188,
+        "notes": "Auto-logged from chat: calories burned estimate"
+      },
+      {
+        "at": "2026-04-26T06:06:18.844294+00:00",
+        "metric": "calories_intake",
+        "value": 188,
+        "notes": "Auto-logged from chat reply text"
+      },
+      {
+        "at": "2026-04-26T06:09:34.128119+00:00",
+        "metric": "calories_burned",
+        "value": 188,
+        "notes": "Auto-logged from chat: calories burned estimate"
+      },
+      {
+        "at": "2026-04-26T06:10:11.403874+00:00",
+        "metric": "calories_burned",
+        "value": 2062,
+        "notes": "Auto-logged from chat: calories burned estimate"
+      }
+    ],
+    "goals": [],
+    "preferences": {
+      "communication_style": "casual",
+      "tone": "friendly_professional"
+    },
+    "conversation_summary": "Recent user focus: done cardio exercise for 330 mins. Recent coach guidance: You have burned approximately 2062 calories during your 330 minutes of cardio exercise..",
+    "audit_log": [
+      {
+        "at": "2026-04-26T05:13:56.992965+00:00",
+        "event": "signup",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T05:18:33.919204+00:00",
+        "event": "profile_update",
+        "details": {
+          "keys": [
+            "age"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:36:24.267967+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T05:38:18.613823+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:43:24.191197+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T05:44:01.112800+00:00",
+        "event": "profile_update",
+        "details": {
+          "keys": [
+            "age",
+            "weight_kg",
+            "height_cm",
+            "gender",
+            "goal",
+            "level",
+            "equipment",
+            "diet_type",
+            "budget",
+            "communication_style"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:44:01.125870+00:00",
+        "event": "preferences_update",
+        "details": {
+          "communication_style": "casual",
+          "tone": "friendly_professional"
+        }
+      },
+      {
+        "at": "2026-04-26T05:44:11.359629+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_bmi"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:44:41.999863+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-26T05:45:09.075627+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-26T05:45:24.917549+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "generate_meal_plan"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:45:33.109620+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:48:04.873223+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_tdee"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:48:18.492632+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_bmi",
+            "analyze_nutrition",
+            "calculate_tdee"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:51:01.993113+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:52:01.732288+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T05:53:32.028755+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T05:55:40.812376+00:00",
+        "event": "progress_log",
+        "details": {
+          "metric": "weight_kg"
+        }
+      },
+      {
+        "at": "2026-04-26T05:58:03.670187+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T05:58:20.502551+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ]
+        }
+      },
+      {
+        "at": "2026-04-26T06:00:45.875046+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T06:00:56.177807+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-26T06:01:41.031609+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-26T06:04:54.919172+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T06:05:09.731363+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-26T06:06:18.851325+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ],
+          "auto_calorie_logs": 2
+        }
+      },
+      {
+        "at": "2026-04-26T06:09:17.496430+00:00",
+        "event": "login",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T06:09:34.136592+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "analyze_nutrition",
+            "calculate_calories_burned",
+            "calculate_bmi",
+            "calculate_tdee",
+            "generate_meal_plan",
+            "generate_workout_plan"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-26T06:09:56.831155+00:00",
+        "event": "session_cleared",
+        "details": {}
+      },
+      {
+        "at": "2026-04-26T06:10:11.412134+00:00",
+        "event": "chat",
+        "details": {
+          "tool_calls": [
+            "calculate_calories_burned"
+          ],
+          "auto_calorie_logs": 1
+        }
+      },
+      {
+        "at": "2026-04-26T06:13:22.819301+00:00",
+        "event": "login",
+        "details": {}
+      }
+    ],
+    "updated_at": "2026-04-26T06:13:22.819301+00:00",
+    "progress_analytics": {
+      "entries": 10,
+      "consistency_score": 0,
+      "weight_trend": "stable",
+      "strength_trend": "stable",
+      "plateau_detected": false,
+      "calories_logged_total": 788,
+      "calories_logged_average": 197,
+      "calories_entries": 4,
+      "calories_burned_total": 2438,
+      "daily_calories": [
+        {
+          "date": "2026-04-26",
+          "intake": 788,
+          "burned": 2438,
+          "net": -1650
+        }
+      ],
+      "insights": [
+        "Consistency is the biggest lever right now. Start with 3 fixed sessions/week."
+      ]
+    }
+  }
+}

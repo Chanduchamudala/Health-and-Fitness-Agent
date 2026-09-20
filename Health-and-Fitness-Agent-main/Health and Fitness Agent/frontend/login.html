@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Health and Fitness Agent</title>
+  <link rel="stylesheet" href="/static/css/base.css" />
+  <link rel="stylesheet" href="/static/css/login.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <h1>Health and Fitness Agent</h1>
+      <p>Secure sign in and synced sessions</p>
+    </header>
+
+    <main class="auth-main">
+      <section class="auth-card">
+        <h2>Welcome</h2>
+        <p>Create an account or login to continue with your own saved fitness chat history.</p>
+
+        <label for="username">Username</label>
+        <input id="username" type="text" minlength="3" autocomplete="username" placeholder="Enter username" />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" minlength="6" autocomplete="current-password" placeholder="Enter password" />
+
+        <div class="auth-buttons">
+          <button id="signupBtn" class="btn primary">Sign Up</button>
+          <button id="loginBtn" class="btn secondary">Log In</button>
+        </div>
+
+        <p id="authMessage" class="auth-message"></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/login.js"></script>
+</body>
+</html>
